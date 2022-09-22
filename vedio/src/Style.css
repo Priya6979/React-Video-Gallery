@@ -1,0 +1,104 @@
+.header {
+	font-family: 'Tiro Devanagari Hindi', serif;
+	background-color: rgb(211, 40, 62);
+	height: 110px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bolder;
+}
+
+.footer {
+	background-color: rgb(211, 40, 62);
+	height: 110px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-size: large;
+}
+
+.search {
+	height: 90px;
+	background-color: rgb(220, 6, 63);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+input {
+	width: 650px;
+	height: 30px;
+	border-radius: 10px;
+	border: 0ch;
+}
+
+button {
+	height: 30px;
+	width: 74px;
+	border-radius: 10px;
+	border: 0px;
+}
+
+button:hover {
+	background-color: black;
+	color: aliceblue;
+}
+
+.search-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 18px;
+}
+
+.card {
+	width: 315px;
+	height: 440px;
+	background-color: rgb(252, 0, 71);
+	padding: 5px;
+	border-radius: 8px;
+}
+
+.card li {
+	display: flex;
+}
+
+.card:hover {
+	transform: translateY(-15px);
+}
+
+.flex-main {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.main {
+	color: white;
+}
+
+.tag {
+	background-color: white;
+	color: black;
+	border-radius: 5px;
+	padding: 4px;
+	font-weight: lighter;
+	margin-right: 5px;
+	font-weight: bold;
+}
+
+ul {
+	list-style-type: none;
+	color: black;
+}
+
+.message {
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
