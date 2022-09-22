@@ -1,2 +1,2 @@
 # React-Video-Gallery
-Built by using HTML, CSS, ReactJs
+Built by using HTML, CSS,JavaScript , ReactJs
